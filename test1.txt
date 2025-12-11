@@ -1,0 +1,34 @@
+G 1 "Fantasy"
+G 2 "Drama"
+
+B 101 1 "The Hobbit"
+B 102 1 "The Lord of the Rings"
+B 201 2 "Hamlet"
+
+M 1 "Alice"
+M 2 "Bob"
+
+L 1 101
+R 1 101 ok 8
+
+L 1 102
+R 1 102 ok 10
+
+L 2 201
+R 2 201 lost 0
+
+S 3
+D
+PD
+PG 1
+PM 1
+PS
+
+F "The Hobbit"
+U 101 "The Hobbit Revised"
+F "The Hobbit Revised"
+
+T 2
+AM
+X
+BF

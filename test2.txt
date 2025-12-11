@@ -1,0 +1,64 @@
+G 1 "Fantasy"
+G 2 "Drama"
+G 3 "SciFi"
+
+B 101 1 "The Hobbit"
+B 102 1 "The Lord of the Rings"
+B 103 1 "Silmarillion"
+B 201 2 "Hamlet"
+B 202 2 "Macbeth"
+B 301 3 "Dune"
+B 302 3 "Neuromancer"
+
+M 1 "Alice"
+M 2 "Bob"
+M 3 "Charlie"
+
+L 1 101
+L 1 102
+L 2 201
+L 3 301
+L 3 302
+
+R 1 101 ok 8
+R 1 102 ok 10
+R 2 201 ok 6
+R 3 301 ok 9
+R 3 302 lost 0
+
+S 5
+PD
+
+PG 1
+PG 2
+PG 3
+
+PM 1
+PM 2
+PM 3
+
+PS
+
+F "The Hobbit"
+F "The Lord of the Rings"
+F "Dune"
+
+U 103 "The Silmarillion Revised"
+F "The Silmarillion Revised"
+
+T 3
+
+AM
+
+X
+
+BF
+X
+
+G 10 "Horror"
+B 999 10 "It"
+M 50 "Dennis"
+L 50 999
+R 50 999 ok 7
+PS
+PD
