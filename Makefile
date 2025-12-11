@@ -1,6 +1,6 @@
 CC      = gcc
 CFLAGS  = -Wall -Wextra -std=c11 -O2
-TARGET  = project_phase2
+TARGET  = library
 SRCS    = main.c
 HDRS    = Library.h
 
@@ -10,7 +10,7 @@ $(TARGET): $(SRCS) $(HDRS)
 	$(CC) $(CFLAGS) $(SRCS) -o $(TARGET)
 
 run: $(TARGET)
-	./$(TARGET) < test2.txt
+	./$(TARGET) < test1.txt
 
 clean:
 	rm -f $(TARGET)
